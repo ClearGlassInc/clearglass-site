@@ -290,6 +290,16 @@ h3 {
   color: var(--muted);
 }
 
+.foundation-list {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+.foundation-list li + li {
+  margin-top: 10px;
+}
+
 .steps {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
